@@ -4,7 +4,7 @@ class persegiPanjang {
 
   persegiPanjang(this.panjang, this.lebar);
 
-fitur-rumus
+
   // fungsi luas persegi panjang
   int luasPersegiPanjang() {
     return panjang * lebar;
@@ -14,7 +14,15 @@ fitur-rumus
   int kelilingPersegiPanjang() {
     return 2 * (panjang + lebar);
   }
+  
 }
-=======
-//git fetch origin
-//git checkout 1-tolong-buatkan-rumus-perhitungan-luas-dan-keliling-persegi-panjang
+void main(){
+    print('Menghitung Keliling dan Luas Persegi Panjang');
+    var panjang = 5;
+    var lebar = 3;
+    var pp = persegiPanjang(panjang, lebar);
+    var keliling = pp.kelilingPersegiPanjang();
+    var luas = pp.luasPersegiPanjang();
+    print('Keliling Persegi Panjang : $keliling');
+    print('Luas Persegi Panjang : $luas');
+  }
