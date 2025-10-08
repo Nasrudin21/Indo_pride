@@ -4,7 +4,7 @@ class persegiPanjang {
 
   persegiPanjang(this.panjang, this.lebar);
 
-fitur-rumus
+
   // fungsi luas persegi panjang
   int luasPersegiPanjang() {
     return panjang * lebar;
@@ -15,6 +15,3 @@ fitur-rumus
     return 2 * (panjang + lebar);
   }
 }
-=======
-//git fetch origin
-//git checkout 1-tolong-buatkan-rumus-perhitungan-luas-dan-keliling-persegi-panjang
